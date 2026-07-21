@@ -1,0 +1,23 @@
+- title: "[PLACEHOLDER] Research Project 1"
+  description: "Replace this sentence with a concise description of the problem, approach, and expected contribution."
+  image: ""
+  tags:
+    - "Research Area 1"
+    - "Method"
+  paper: ""
+  code: ""
+  demo: ""
+  status: "Placeholder"
+  selected: true
+
+- title: "[PLACEHOLDER] Research Project 2"
+  description: "Replace this sentence with a concise description of the problem, approach, and expected contribution."
+  image: ""
+  tags:
+    - "Research Area 2"
+    - "Open Science"
+  paper: ""
+  code: ""
+  demo: ""
+  status: "Placeholder"
+  selected: true

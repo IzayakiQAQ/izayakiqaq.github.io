@@ -1,0 +1,41 @@
+- id: research-area-1
+  title: "Research Area 1"
+  description: "[PLACEHOLDER] Short description of the problems and methods."
+  questions:
+    - "[PLACEHOLDER] Primary research question"
+  methods:
+    - "[PLACEHOLDER] Method or theoretical framework"
+  projects:
+    - "[PLACEHOLDER] Related project"
+  publications:
+    - "[PLACEHOLDER] Related publication"
+  code:
+    - "[PLACEHOLDER] Related repository"
+
+- id: research-area-2
+  title: "Research Area 2"
+  description: "[PLACEHOLDER] Short description of the problems and methods."
+  questions:
+    - "[PLACEHOLDER] Primary research question"
+  methods:
+    - "[PLACEHOLDER] Method or experimental approach"
+  projects:
+    - "[PLACEHOLDER] Related project"
+  publications:
+    - "[PLACEHOLDER] Related publication"
+  code:
+    - "[PLACEHOLDER] Related repository"
+
+- id: research-area-3
+  title: "Research Area 3"
+  description: "[PLACEHOLDER] Short description of the problems and methods."
+  questions:
+    - "[PLACEHOLDER] Primary research question"
+  methods:
+    - "[PLACEHOLDER] Method or computational tool"
+  projects:
+    - "[PLACEHOLDER] Related project"
+  publications:
+    - "[PLACEHOLDER] Related publication"
+  code:
+    - "[PLACEHOLDER] Related repository"

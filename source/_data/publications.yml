@@ -1,0 +1,44 @@
+- title: "[PLACEHOLDER] Publication Title 1"
+  authors: "{{AUTHOR_NAME}} et al. [PLACEHOLDER]"
+  venue: "[PLACEHOLDER] Journal or conference"
+  year: "YYYY"
+  status: "Published"
+  type: "journal"
+  image: "/img/profile.jpg" # Preview image; replace or clear this path later
+  selected: true
+  pdf: ""
+  arxiv: ""
+  code: ""
+  project: ""
+  doi: ""
+  abstract: "[PLACEHOLDER] Add the verified abstract or a one-sentence summary."
+
+- title: "[PLACEHOLDER] Publication Title 2"
+  authors: "{{AUTHOR_NAME}} et al. [PLACEHOLDER]"
+  venue: "[PLACEHOLDER] Journal or conference"
+  year: "YYYY"
+  status: "Accepted"
+  type: "conference"
+  image: "" # Optional: /img/publications/example.jpg
+  selected: true
+  pdf: ""
+  arxiv: ""
+  code: ""
+  project: ""
+  doi: ""
+  abstract: "[PLACEHOLDER] Add the verified abstract or a one-sentence summary."
+
+- title: "[PLACEHOLDER] Publication Title 3"
+  authors: "{{AUTHOR_NAME}} et al. [PLACEHOLDER]"
+  venue: "[PLACEHOLDER] Preprint repository"
+  year: "YYYY"
+  status: "Preprint"
+  type: "preprint"
+  image: "" # Optional: /img/publications/example.jpg
+  selected: true
+  pdf: ""
+  arxiv: ""
+  code: ""
+  project: ""
+  doi: ""
+  abstract: "[PLACEHOLDER] Add the verified abstract or a one-sentence summary."

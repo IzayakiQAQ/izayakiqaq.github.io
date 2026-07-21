@@ -1,0 +1,38 @@
+author:
+  name: "Zhiyang Liu"
+  name_cn: "刘志扬"
+  title: "Ph.D. Student"
+  university: "University of Electronic Science and Technology of China (UESTC)"
+  department: "Physics"
+  laboratory: "xIQLabs"
+  email: "202422210210@std.uestc.edu.cn"
+  github: "https://github.com/IzayakiQAQ"
+  scholar: "{{GOOGLE_SCHOLAR_URL}}"
+  orcid: "{{ORCID_URL}}"
+  cv: "{{CV_URL}}"
+  avatar: "/img/profile.jpg"
+  bio: "{{RESEARCH_SUMMARY}}"
+  focus:
+    - "[PLACEHOLDER] Research Interest 1"
+    - "[PLACEHOLDER] Research Interest 2"
+    - "[PLACEHOLDER] Research Interest 3"
+
+# Replace these clearly marked entries with real biographical information.
+education:
+  - period: "Current"
+    degree: "Ph.D. Student"
+    institution: "University of Electronic Science and Technology of China (UESTC)"
+  - period: "Undergraduate"
+    degree: "Undergraduate studies in Optoelectronics"
+    institution: "University of Electronic Science and Technology of China (UESTC)"
+
+experience:
+  - period: "Current"
+    role: "Ph.D. Student"
+    organization: "xIQLabs, University of Electronic Science and Technology of China (UESTC)"
+
+service:
+  - "[PLACEHOLDER] Add reviewing, organizing, mentoring, or community service."
+
+awards:
+  - "[PLACEHOLDER] Add verified awards or remove this entry."

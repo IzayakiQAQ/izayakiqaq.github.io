@@ -1,0 +1,236 @@
+# Site-level Butterfly overrides. Do not edit files under node_modules.
+favicon: /img/profile.jpg
+
+menu:
+  Home: / || fas fa-house
+  Research: /research/ || fas fa-microscope
+  Publications: /publications/ || fas fa-file-lines
+  Projects: /projects/ || fas fa-diagram-project
+  Blog:
+    Blog Home: /blog/ || fas fa-pen-nib
+    Archives: /archives/ || fas fa-box-archive
+    Categories: /categories/ || fas fa-folder-open
+    Tags: /tags/ || fas fa-tags
+  About: /about/ || fas fa-user
+  CV: /cv/ || fas fa-file-pdf
+
+nav:
+  logo:
+  display_title: true
+  fixed: false
+
+index_img: false
+default_top_img: false
+archive_img: false
+tag_img: false
+category_img: false
+background: false
+footer_bg: false
+disable_top_img: true
+
+avatar:
+  img: /img/butterfly-icon.png
+  effect: false
+
+social: {}
+
+post_meta:
+  page:
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+  post:
+    position: left
+    date_type: both
+    date_format: date
+    categories: true
+    tags: true
+    label: true
+
+index_post_content:
+  method: 2
+  length: 300
+
+toc:
+  post: true
+  page: false
+  number: true
+  expand: false
+  style_simple: true
+  scroll_percent: true
+
+post_copyright:
+  enable: false
+
+related_post:
+  enable: false
+
+post_pagination: 1
+
+anchor:
+  button:
+    enable: false
+  auto_update: false
+  click_to_scroll: true
+
+photofigcaption: false
+copy:
+  enable: true
+  copyright:
+    enable: false
+
+busuanzi:
+  site_uv: false
+  site_pv: false
+  page_pv: false
+
+code_blocks:
+  theme: ocean
+  macStyle: true
+  height_limit: 360
+  word_wrap: false
+  copy: true
+  language: true
+  shrink: false
+  fullpage: true
+
+social_share:
+  use: ""
+
+comments:
+  use: ""
+  text: true
+  lazyload: false
+  count: false
+  card_post_count: false
+
+search:
+  use: local_search
+  placeholder: Search articles and pages
+  local_search:
+    preload: false
+    top_n_per_article: 1
+    unescape: false
+    pagination:
+      enable: false
+      hitsPerPage: 8
+    CDN: ""
+
+math:
+  use: katex
+  per_page: true
+  hide_scrollbar: false
+
+aside:
+  enable: true
+  hide: true
+  button: true
+  mobile: false
+  position: right
+  display:
+    archive: true
+    tag: true
+    category: true
+  card_author:
+    enable: false
+  card_announcement:
+    enable: false
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order: none
+  card_tags:
+    enable: true
+    limit: 20
+    color: false
+    orderby: random
+    order: 1
+    sort_order: none
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+    sort_order: none
+  card_post_series:
+    enable: false
+  card_webinfo:
+    enable: false
+
+footer:
+  owner:
+    enable: true
+    since: 2026
+  custom_text: ""
+  copyright:
+    enable: true
+    version: false
+
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+  start: 18
+  end: 6
+
+display_mode: light
+rightside_scroll_percent: false
+
+preloader:
+  enable: true
+  source: 2
+
+enter_transitions: true
+
+beautify:
+  enable: false
+
+lazyload:
+  enable: false
+
+pjax:
+  enable: true
+  exclude:
+
+snackbar:
+  enable: true
+  position: bottom-left
+  bg_light: '#0b2342'
+  bg_dark: '#102235'
+
+instantpage: false
+medium_zoom: false
+fancybox: false
+lightbox: medium_zoom
+
+canvas_nest:
+  enable: true
+  color: '44,145,177'
+  opacity: 0.42
+  zIndex: -1
+  count: 86
+  mobile: false
+
+mermaid:
+  enable: false
+
+# The site plugin fills these arrays with root-aware asset URLs at build time.
+inject:
+  head: []
+  bottom: []
+
+CDN:
+  internal_provider: local
+  third_party_provider: cdnjs
+  version: true
+  option:
+    # Butterfly templates still use the FA6-compatible fas/fab class aliases.
+    fontawesome: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css
