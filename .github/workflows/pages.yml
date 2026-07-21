@@ -39,16 +39,18 @@ jobs:
         run: |
           OWNER="${GITHUB_REPOSITORY%%/*}"
           REPOSITORY_NAME="${GITHUB_REPOSITORY#*/}"
+          OWNER_LOWER="${OWNER,,}"
+          REPOSITORY_NAME_LOWER="${REPOSITORY_NAME,,}"
 
           if [[ -f source/CNAME ]]; then
             CUSTOM_DOMAIN="$(tr -d '\r\n ' < source/CNAME)"
             SITE_URL="https://${CUSTOM_DOMAIN}"
             SITE_ROOT="/"
-          elif [[ "${REPOSITORY_NAME}" == "${OWNER}.github.io" ]]; then
-            SITE_URL="https://${OWNER}.github.io"
+          elif [[ "${REPOSITORY_NAME_LOWER}" == "${OWNER_LOWER}.github.io" ]]; then
+            SITE_URL="https://${OWNER_LOWER}.github.io"
             SITE_ROOT="/"
           else
-            SITE_URL="https://${OWNER}.github.io/${REPOSITORY_NAME}"
+            SITE_URL="https://${OWNER_LOWER}.github.io/${REPOSITORY_NAME}"
             SITE_ROOT="/${REPOSITORY_NAME}/"
           fi
 
