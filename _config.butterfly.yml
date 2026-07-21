@@ -1,18 +1,10 @@
 # Site-level Butterfly overrides. Do not edit files under node_modules.
-favicon: /img/profile.jpg
+favicon:
 
 menu:
   Home: / || fas fa-house
   Research: /research/ || fas fa-microscope
-  Publications: /publications/ || fas fa-file-lines
-  Projects: /projects/ || fas fa-diagram-project
-  Blog:
-    Blog Home: /blog/ || fas fa-pen-nib
-    Archives: /archives/ || fas fa-box-archive
-    Categories: /categories/ || fas fa-folder-open
-    Tags: /tags/ || fas fa-tags
   About: /about/ || fas fa-user
-  CV: /cv/ || fas fa-file-pdf
 
 nav:
   logo:
@@ -29,7 +21,7 @@ footer_bg: false
 disable_top_img: true
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: ""
   effect: false
 
 social: {}

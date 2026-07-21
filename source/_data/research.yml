@@ -1,41 +1,43 @@
-- id: research-area-1
-  title: "Research Area 1"
-  description: "[PLACEHOLDER] Short description of the problems and methods."
+- id: quantum-two-way-time-transfer
+  title: "Quantum Two-Way Time Transfer (QTWTT)"
+  description: "This research investigates high-precision time-offset estimation and stability analysis in quantum two-way time transfer. It develops correlation-based processing, coincidence-peak readout, and data-analysis methods, together with optical sampling, to support reliable synchronization measurements."
   questions:
-    - "[PLACEHOLDER] Primary research question"
+    - "Correlation-based time-offset estimation"
+    - "Coincidence-peak localization and readout"
+    - "Stability analysis of synchronization data"
   methods:
-    - "[PLACEHOLDER] Method or theoretical framework"
+    - "Optical sampling"
+    - "Correlation analysis"
+    - "MATLAB"
+    - "Python"
   projects:
-    - "[PLACEHOLDER] Related project"
+    - label: "histgram_py"
+      url: "https://github.com/IzayakiQAQ/histgram_py"
   publications:
-    - "[PLACEHOLDER] Related publication"
+    - label: "Quantum Clock Synchronization for Multi-User Quantum Network (DOI)"
+      url: "https://doi.org/10.1109/OGC66041.2025.11262054"
   code:
-    - "[PLACEHOLDER] Related repository"
+    - label: "histgram_py — correlation, coincidence, pipeline, and time-tag data processing"
+      url: "https://github.com/IzayakiQAQ/histgram_py"
 
-- id: research-area-2
-  title: "Research Area 2"
-  description: "[PLACEHOLDER] Short description of the problems and methods."
+- id: dispersion-compensation-for-qt-wtt
+  title: "Algorithmic Dispersion Compensation for QTWTT"
+  description: "This direction studies compensation algorithms for dispersion-broadened coincidence peaks in QTWTT. It combines physics-constrained estimation, template matching, and data-driven models to improve time-center readout and stability assessment under broadened-peak conditions."
   questions:
-    - "[PLACEHOLDER] Primary research question"
+    - "Dispersion-induced peak broadening"
+    - "Physics-constrained compensation"
+    - "PSF and time-center readout modeling"
   methods:
-    - "[PLACEHOLDER] Method or experimental approach"
+    - "Optical sampling"
+    - "Physics-constrained algorithms"
+    - "MATLAB"
+    - "Python"
+    - "PyTorch"
   projects:
-    - "[PLACEHOLDER] Related project"
+    - label: "fiber-dispersion-v11"
+      url: "https://github.com/IzayakiQAQ/fiber-dispersion-v11"
   publications:
-    - "[PLACEHOLDER] Related publication"
+    []
   code:
-    - "[PLACEHOLDER] Related repository"
-
-- id: research-area-3
-  title: "Research Area 3"
-  description: "[PLACEHOLDER] Short description of the problems and methods."
-  questions:
-    - "[PLACEHOLDER] Primary research question"
-  methods:
-    - "[PLACEHOLDER] Method or computational tool"
-  projects:
-    - "[PLACEHOLDER] Related project"
-  publications:
-    - "[PLACEHOLDER] Related publication"
-  code:
-    - "[PLACEHOLDER] Related repository"
+    - label: "fiber-dispersion-v11 — V17 template bank and likelihood reader"
+      url: "https://github.com/IzayakiQAQ/fiber-dispersion-v11"

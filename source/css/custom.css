@@ -127,6 +127,14 @@ body {
   box-shadow: var(--academic-shadow);
 }
 
+.academic-hero--without-portrait {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+#sidebar .avatar-img {
+  display: none;
+}
+
 .academic-hero::before {
   position: absolute;
   top: 0;

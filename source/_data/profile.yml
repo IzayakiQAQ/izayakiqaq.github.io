@@ -1,38 +1,36 @@
 author:
-  name: "Zhiyang Liu"
+  name: "Zhi-Yang Liu"
   name_cn: "刘志扬"
   title: "Ph.D. Student"
-  university: "University of Electronic Science and Technology of China (UESTC)"
+  university: "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China (UESTC)"
   department: "Physics"
   laboratory: "xIQLabs"
-  email: "202422210210@std.uestc.edu.cn"
+  email: "202611210103@std.uestc.edu.cn"
   github: "https://github.com/IzayakiQAQ"
-  scholar: "{{GOOGLE_SCHOLAR_URL}}"
-  orcid: "{{ORCID_URL}}"
-  cv: "{{CV_URL}}"
-  avatar: "/img/profile.jpg"
-  bio: "{{RESEARCH_SUMMARY}}"
+  scholar: ""
+  orcid: ""
+  cv: ""
+  avatar: ""
+  bio: "Zhi-Yang Liu is a Ph.D. student in Physics at xIQLabs, IFFS, UESTC. His research focuses on quantum two-way time transfer, time-and-frequency measurement in optical communications, and dispersion-compensation algorithms using optical sampling, correlation analysis, and data-driven methods."
   focus:
-    - "[PLACEHOLDER] Research Interest 1"
-    - "[PLACEHOLDER] Research Interest 2"
-    - "[PLACEHOLDER] Research Interest 3"
+    - "Quantum Communication"
+    - "Optical Communications"
+    - "Time and Frequency Transfer"
+    - "Optics–Algorithm Integration"
 
-# Replace these clearly marked entries with real biographical information.
 education:
-  - period: "Current"
-    degree: "Ph.D. Student"
-    institution: "University of Electronic Science and Technology of China (UESTC)"
-  - period: "Undergraduate"
-    degree: "Undergraduate studies in Optoelectronics"
-    institution: "University of Electronic Science and Technology of China (UESTC)"
+  - period: "2020–2024"
+    degree: "Undergraduate Studies in Optoelectronic Information Science"
+    institution: "School of Optoelectronic Science and Engineering, University of Electronic Science and Technology of China (UESTC)"
+  - period: "2024–2026"
+    degree: "Master's Student in Electronic Information"
+    institution: "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China (UESTC)"
+  - period: "2026–Present"
+    degree: "Ph.D. Student in Physics"
+    institution: "Institute of Fundamental and Frontier Sciences, University of Electronic Science and Technology of China (UESTC)"
 
-experience:
-  - period: "Current"
-    role: "Ph.D. Student"
-    organization: "xIQLabs, University of Electronic Science and Technology of China (UESTC)"
+experience: []
 
-service:
-  - "[PLACEHOLDER] Add reviewing, organizing, mentoring, or community service."
+service: []
 
-awards:
-  - "[PLACEHOLDER] Add verified awards or remove this entry."
+awards: []
