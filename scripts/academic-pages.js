@@ -1,5 +1,7 @@
 'use strict';
 
+const katex = require('katex');
+
 /**
  * Site-owned presentation layer for academic pages.
  * All personal and scholarly content is read from source/_data/*.yml.
@@ -74,6 +76,42 @@ function iconAction(label, value, icon, type = 'url') {
   const title = disabled ? `${label} — configure this link in source/_data/profile.yml` : label;
   return `<a class="academic-icon-action${disabled ? ' is-placeholder' : ''}" href="${escapeHtml(href)}" aria-label="${escapeHtml(label)}" title="${escapeHtml(title)}"${target}${disabled ? ' aria-disabled="true"' : ''}><i class="${escapeHtml(icon)}" aria-hidden="true"></i></a>`;
 }
+
+hexo.extend.filter.register('marked:extensions', extensions => {
+  extensions.push({
+    name: 'academicBlockMath',
+    level: 'block',
+    start(src) {
+      const match = src.match(/\\\[/);
+      return match ? match.index : undefined;
+    },
+    tokenizer(src) {
+      const match = /^\\\[\s*\n?([\s\S]+?)\n?\\\](?:\n|$)/.exec(src);
+      if (!match) return undefined;
+      return { type: 'academicBlockMath', raw: match[0], math: match[1] };
+    },
+    renderer(token) {
+      return katex.renderToString(token.math, { displayMode: true, throwOnError: false });
+    }
+  });
+
+  extensions.push({
+    name: 'academicInlineMath',
+    level: 'inline',
+    start(src) {
+      const match = src.match(/\\\(/);
+      return match ? match.index : undefined;
+    },
+    tokenizer(src) {
+      const match = /^\\\(([\s\S]+?)\\\)/.exec(src);
+      if (!match) return undefined;
+      return { type: 'academicInlineMath', raw: match[0], math: match[1] };
+    },
+    renderer(token) {
+      return katex.renderToString(token.math, { displayMode: false, throwOnError: false });
+    }
+  });
+});
 
 function availableIconAction(label, value, icon, type = 'url') {
   return value && !isToken(value) ? iconAction(label, value, icon, type) : '';

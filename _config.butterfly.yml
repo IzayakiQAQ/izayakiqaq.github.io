@@ -4,6 +4,7 @@ favicon:
 menu:
   Home: / || fas fa-house
   Research: /research/ || fas fa-microscope
+  Blog: /blog/ || fas fa-pen-nib
   About: /about/ || fas fa-user
 
 nav:
